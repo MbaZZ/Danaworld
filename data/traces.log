@@ -1,0 +1,28 @@
+
+-------------------------------127.0.0.1->/web/gamesArea/-----------------------------------
+2015-08-26 23:19:04: Deb   router
+2015-08-26 23:19:04:   Info : Le namespace briquesgl n'éxiste pas, création !
+2015-08-26 23:19:04:   Deb  contrôleur briquesgl_controller
+2015-08-26 23:19:04:        jquery_interceptor::init//Intercepteur de briquesgl_controller
+2015-08-26 23:19:04:        jquery_interceptor::beforeController//Intercepteur de briquesgl_controller
+2015-08-26 23:19:04:        gameArea_interceptor::init//Intercepteur de briquesgl_controller
+2015-08-26 23:19:04:        gameArea_interceptor::beforeController//Intercepteur de briquesgl_controller
+2015-08-26 23:19:04:     Deb   briquesgl_controller::init
+2015-08-26 23:19:04:       Info : jsControllerHelper
+2015-08-26 23:19:04:       Exception : Ici
+2015-08-26 23:19:04:     Fin  briquesgl_controller::init
+2015-08-26 23:19:04:     Deb  Action briquesgl_controller::home
+2015-08-26 23:19:04:       Debug : setLayoutNamewall.php
+2015-08-26 23:19:04:     Fin Action briquesgl_controller::home->webgl/home.php
+2015-08-26 23:19:04:        gameArea_interceptor::afterController//Intercepteur de briquesgl_controller
+2015-08-26 23:19:04:        gameArea_interceptor::afterController//Intercepteur de briquesgl_controller
+2015-08-26 23:19:04:   Fin contrôleur briquesgl_controller
+2015-08-26 23:19:04:   Info : addContent briquesgl
+2015-08-26 23:19:04: Fin  router
+2015-08-26 23:19:04: Deb   layoutManager::render//layout : wall.php
+2015-08-26 23:19:04:   Deb   layoutManager::getContent//content_name : content_url
+2015-08-26 23:19:04:     Deb   include webgl/home.php
+2015-08-26 23:19:04:       Info : Form open jsControllerHelper
+2015-08-26 23:19:04:     Fin  include webgl/home.php
+2015-08-26 23:19:04:   Fin  layoutManager::getContent
+2015-08-26 23:19:04: Fin  layoutManager::render

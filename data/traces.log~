@@ -1,0 +1,30 @@
+
+-------------------------------127.0.0.1->/web/accueilServer/-----------------------------------
+2014-11-29 21:07:59: Deb   router
+2014-11-29 21:07:59: IInfo : Le namespace accueil n'éxiste pas, création !
+2014-11-29 21:07:59: IDeb  contrôleur accueil_controller
+2014-11-29 21:07:59: I   auth_interceptor::init//Intercepteur de accueil_controller
+2014-11-29 21:07:59: IDeb   auth_interceptor::beforeController//Intercepteur de accueil_controller
+2014-11-29 21:07:59: IInfo : Le namespace utilisateurs n'éxiste pas, création !
+2014-11-29 21:07:59: IDeb  contrôleur utilisateurs_controller
+2014-11-29 21:07:59: IDeb   utilisateurs_controller::init
+2014-11-29 21:07:59: IDebug : setLayoutNamesessionSecurisee.html
+2014-11-29 21:07:59: DFin  utilisateurs_controller::init
+2014-11-29 21:07:59: DDeb  Action utilisateurs_controller::login
+2014-11-29 21:07:59: IDebug : select id,login from utilisateurs where login = "alexis" and mdp = "4f014f288e2e61c8a891599189196634dfa4df2c"
+2014-11-29 21:07:59: IException : Erreur connex
+
+-------------------------------127.0.0.1->/web/accueilServer/-----------------------------------
+2014-11-29 21:08:24: Deb   router
+2014-11-29 21:08:24: IInfo : Le namespace accueil n'éxiste pas, création !
+2014-11-29 21:08:24: IDeb  contrôleur accueil_controller
+2014-11-29 21:08:24: II   auth_interceptor::init//Intercepteur de accueil_controller
+2014-11-29 21:08:24: IIDeb   auth_interceptor::beforeController//Intercepteur de accueil_controller
+2014-11-29 21:08:24: IIIInfo : Le namespace utilisateurs n'éxiste pas, création !
+2014-11-29 21:08:24: IIIDeb  contrôleur utilisateurs_controller
+2014-11-29 21:08:24: IIIIDeb   utilisateurs_controller::init
+2014-11-29 21:08:24: IIIIIDebug : setLayoutNamesessionSecurisee.html
+2014-11-29 21:08:24: IIIIIDFin  utilisateurs_controller::init
+2014-11-29 21:08:24: IIIIIDDeb  Action utilisateurs_controller::login
+2014-11-29 21:08:24: IIIIIDIDebug : select id,login from utilisateurs where login = "alexis" and mdp = "4f014f288e2e61c8a891599189196634dfa4df2c"
+2014-11-29 21:08:24: IIIIIDIException : Erreur connex

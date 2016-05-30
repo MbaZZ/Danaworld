@@ -1,0 +1,32 @@
+#cadre_defil_2 { 
+	overflow : hidden;
+	height: 17px; 
+/* 	width:600px;  */
+	margin: 0 auto;
+		
+		
+		
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:normal;
+		
+	color: #000000;
+}
+
+
+#cadre_defil_2 img {
+	border:0;
+	vertical-align: middle;
+	}
+
+
+#cadre_defil_2 .liens {
+	color: #000000;
+}
+
+#conteneur_defil_2 {
+	position : relative;
+	overflow : hidden;
+	visibility : hidden;
+	height:100%;
+}

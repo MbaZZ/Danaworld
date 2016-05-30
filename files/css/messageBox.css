@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+div.messageBoxGlobal{
+	position:fixed;
+/* 	top:15%; */
+/* 	left:30%; */
+/* 	width:550px; */
+/* 	height:300px; */
+	border:3px solid black;
+	background:white;
+	z-index:20;
+	overflox:auto;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+}
+div.bandeauVertical{
+	top:0;
+	bottom:0;
+/* 	background:red; */
+/* 	height:100%; */
+}
+div.messageBoxBody{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+/* 	background:url(images/blackTransparent.png); */
+	background:black;
+	opacity:0.5;
+	z-index:9;
+}
+div.messageBoxGlobal h1{
+	font-size:15px;	
+}
+div.messageBoxTitle{
+	padding-top:20px;
+	padding-bottom:0px;
+	margin-bottom:5px;
+	background-color:#ffffff;
+	font-size:22px;
+	border-bottom:black 1px solid;
+}
+.bodyHided{
+	overflow:hidden;
+}
+div.divBas{
+	clear:left;
+	margin:5px;
+	width:100%;
+	height:0;
+	text-align:right;
+	border:1px solid black;
+}
+div.divBtnClose{
+	clear:left;
+	margin:5px;
+	width:100%;
+	text-align:right;
+}
+div.messageBoxContent{
+	padding:5px;
+/* 	width:570px; */
+	overflow:auto;
+}
+input.closeBoxBtn{
+/* 	width:55px; */
+}
+input.closeBoxBtnSelected{
+	background:black;
+	color:white;
+	text-decoration:underline;
+}
+.msgWarning{
+	background: url("images/icoWarning2.png") no-repeat scroll 0 center transparent;
+    display: block;
+	padding-left: 30px;
+	min-height: 30px;
+}
+div.divBtnQuestion{
+	border-top:1.5px solid black;
+	text-align:right;
+	margin-top:5px;
+	margin-bottom:10px;
+}
