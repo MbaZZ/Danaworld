@@ -1,0 +1,16 @@
+<div id="homeForm">
+	<h1>Connexion au site</h1>
+	<div id="message">
+		Veuillez utiliser un identifiant et  un mot <br> de passe valide pour  accéder<br> au site
+	</div>
+	<div id="connecForm">
+		<?php
+			$form = $this->getHelper('form');
+			$form->openForm(array('id'=>'login','action' => '','method'=>'post'));
+			echo $form->input('login',array('label'=>'Identifiant'));
+			echo $form->password('mdp',array('label'=>'Mot de passe'));
+			echo "<br />".$form->submit('Connexion');
+			echo "<p style='color:red;font-size:110%;'>".$form->message('auth')."</p>";
+		?>
+	</div>
+</div>
