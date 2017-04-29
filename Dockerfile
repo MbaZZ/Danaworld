@@ -15,7 +15,7 @@ RUN echo Europe/Paris > /etc/timezone && dpkg-reconfigure --frontend noninteract
 RUN ln -sf /dev/stdout /var/log/apache2/access.log \
     && ln -sf /dev/stderr /var/log/apache2/error.log
 
-ADD ./danaworld /var/www/html/danaworld
+ADD ./webHelper /var/www/html/danaworld
 
 ADD ./apache2.conf /etc/apache2/apache2.conf 
 
